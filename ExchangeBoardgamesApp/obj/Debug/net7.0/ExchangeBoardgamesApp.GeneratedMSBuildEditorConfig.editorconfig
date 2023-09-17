@@ -12,7 +12,7 @@ build_property.RootNamespace = ExchangeBoardgamesApp
 build_property.ProjectDir = /home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp
 build_property._RazorSourceGeneratorDebug = 
 
