@@ -16,7 +16,15 @@ nav {
     align-items: center;
     padding: 0 1.25em;
     background-color: #232629;
-  border-radius: 0
+  border-radius: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav-occupier{
+  display: block;
+  height: 5.6em;
 }
 .nav-icon {
   padding: 1.8em 1em;
@@ -83,4 +91,12 @@ input:focus {
 }
 .website-search::placeholder {
   color: white;
+}
+
+header {
+  font-size: 2rem;
+  padding: 1em;
+  font-weight: bold;
+  color: var(--dark-blue);
+  background-color: #F4F8FB;
 }
