@@ -1,98 +1,86 @@
 :root {
   box-sizing: border-box;
   font-family: sans-serif;
+  --dark-blue: rgb(57,115,157);
+  font-size: 12px;
 }
 *,
 ::before,
 ::after {
   box-sizing: inherit;
+  border-radius: 0.5em;
+  letter-spacing: -0.04em;
 }
 nav {
     display: flex;
     align-items: center;
-    /*! height: 100px; */
-    /*! margin: 1em; */
-    padding: 0 1em;
+    padding: 0 1.25em;
     background-color: #232629;
+  border-radius: 0
 }
-img {
-    width: 1.3em;
-    /*! width: 100%; */
+.nav-icon {
+  padding: 1.8em 1em;
+  display: flex;
+}
+.nav-icon:hover{
+  background-color: #68696a;
+  border-radius: 0
+}
+.nav-icon img {
+    width: 2em;
 }
 
-input {
+.website-search {
   flex: 2;
-  margin: 0 0.6em;
-  /*! height: 80%; */
+  margin: 0 0.8em;
   background-color: #3B4045;
-  border-radius: 0.5em;
-  border: 0.15em solid #6A737C;
-  height: 2.5em;
+  border-color: #6A737C;
   background-image: url('/images/icons/magnifier.svg');
   background-size: 20px 20px;
   background-position: 5px center;
   background-repeat: no-repeat;
   padding-left: 30px;
 }
-nav > img {
-  width: 2em;
-  /*! height: 2em; */
-  margin-right: 1em;
+input{
+  border-width: 0.2em;
+  border-style: solid;
+  height: 3em
 }
-
-a {
-  /*! padding: .3em 1em; */
-  /*! display: inline-block; */
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.02em;
+.site-logo {
+  width: 3em;
+  margin-right: 1.25em;
 }
-
-.Log.in {
-}
-.Log-in {
+.log-in {
   background-color: #E1EAF0;
-  border-radius: 0.5em;
-  font-size: 0.8em;
-  margin-right: 0.1em;
+  margin-right: 0.125em;
   color: #2B5878;
+}
+.sign-up {
+  background-color: var(--dark-blue);
+  margin-left: 0.2em;
+  color: white;
+}
+.button{
   padding: 0.7em 1em;
 }
-.Sign-up {
-  background-color: rgb(57,115,157);
-  border-radius: 0.5em;
-  font-size: 0.8em;
-  margin-left: 0.1em;
-  color: white;
-  padding: 0.7em 1em;
+.button:hover{
+  filter:  brightness(90%);
 }
 a:hover {
   cursor:  pointer;
 }
-.nav {
-  padding: 0.7em 1em;
-  background-color: #232629;
-}
+
 body {
   margin: 0;
 }
 
-.icon {
-  padding: 1em 0.7em;
-}
-.icon:hover {
-  background-color: #797777;
-}
-.Log-in:hover {
-  background-color: #B6BEC4;
-}
-.Sign-up:hover {
-  background-color: rgb(40, 82, 113);
-}
 
 input:focus {
-  outline: 0.2em solid #bbbbbd;
+  outline: 0.2em solid;
 }
-input::placeholder {
+.website-search:focus{
+  outline-color: #bbbbbb
+}
+.website-search::placeholder {
   color: white;
 }

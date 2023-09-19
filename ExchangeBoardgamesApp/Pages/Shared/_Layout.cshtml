@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="~/css/_Layout.css" asp-append-version="true" />
 </head>
 
-<body>
+<body style="cursor: default;">
         <nav>
         <img src="/images/icons/hashtag-c-sharp.svg" alt="c-sharp logo">
         <input type="search" placeholder="Give me something to search for you">
@@ -17,18 +17,20 @@
         <a class="icon">
             <img src="/images/icons/stack-exchange.svg" alt="list of all websites">
         </a>
-            <a class="Log-in">
+            <a class="log-in button">
             Log in
-        </a>
-            <a class="Sign-up">
+        <div></div></a>
+            <a class="sign-up button">
             Sign up
             </a>
     </nav>
     <div>
         <main>
-            @RenderBody()
+            @RenderBody();
         </main>
     </div>
+
+
 
 </body>
 

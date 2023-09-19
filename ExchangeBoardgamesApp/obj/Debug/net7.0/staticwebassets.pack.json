@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/images/icons/hashtag-c-sharp.svg"
     },
     {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/magnifier.svg",
+      "PackagePath": "staticwebassets/images/icons/magnifier.svg"
+    },
+    {
       "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/question-mark.svg",
       "PackagePath": "staticwebassets/images/icons/question-mark.svg"
     },
