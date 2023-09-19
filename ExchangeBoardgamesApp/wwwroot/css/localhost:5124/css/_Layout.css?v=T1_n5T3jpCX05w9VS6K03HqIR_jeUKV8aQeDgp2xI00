@@ -1,0 +1,45 @@
+:root {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+nav {
+    display: flex;
+}nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.2em 0.5em;
+}
+img {
+    nav {
+    display: flex;
+    position: fixed;
+    padding: 0.2em 0.5em;
+};
+    width: 2em;
+    nav {
+    display: flex;
+    position: fixed;
+    padding: 0.2em 0.5em;
+};
+    nav {
+    display: flex;
+    position: fixed;
+    padding: 0.2em 0.5em;
+};
+    nav {
+    display: flex;
+    position: fixed;
+    padding: 0.2em 0.5em;
+};
+    /* padding: 0.2em 0.5em; */
+}
+
+

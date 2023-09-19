@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/_Layout.css",
+      "PackagePath": "staticwebassets/css/_Layout.css"
+    },
+    {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/inspector:/localhost/inspector-stylesheet",
+      "PackagePath": "staticwebassets/css/inspector:/localhost"
+    },
+    {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/localhost:5124/css/_Layout.css?v=T1_n5T3jpCX05w9VS6K03HqIR_jeUKV8aQeDgp2xI00",
+      "PackagePath": "staticwebassets/css/localhost:5124/css/_Layout.css?v=T1_n5T3jpCX05w9VS6K03HqIR_jeUKV8aQeDgp2xI00"
+    },
+    {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/hashtag-c-sharp.svg",
+      "PackagePath": "staticwebassets/images/icons/hashtag-c-sharp.svg"
+    },
+    {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/question-mark.svg",
+      "PackagePath": "staticwebassets/images/icons/question-mark.svg"
+    },
+    {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/stack-exchange.svg",
+      "PackagePath": "staticwebassets/images/icons/stack-exchange.svg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ExchangeBoardgamesApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ExchangeBoardgamesApp.props",
+      "PackagePath": "build\\ExchangeBoardgamesApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ExchangeBoardgamesApp.props",
+      "PackagePath": "buildMultiTargeting\\ExchangeBoardgamesApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ExchangeBoardgamesApp.props",
+      "PackagePath": "buildTransitive\\ExchangeBoardgamesApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

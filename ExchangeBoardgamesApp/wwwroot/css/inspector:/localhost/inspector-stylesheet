@@ -1,0 +1,15 @@
+input[type="search"] {
+    flex: 1;
+}nav {
+    display: flex;
+}nav {
+    display: flex;
+}p {
+    color: red;
+}
+
+img {
+    width: 2em;
+}
+
+input[type="search"] {}
