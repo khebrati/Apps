@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/css/localhost:5124/css/_Layout.css?v=T1_n5T3jpCX05w9VS6K03HqIR_jeUKV8aQeDgp2xI00"
     },
     {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/earth.svg",
+      "PackagePath": "staticwebassets/images/icons/earth.svg"
+    },
+    {
       "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/hashtag-c-sharp.svg",
       "PackagePath": "staticwebassets/images/icons/hashtag-c-sharp.svg"
     },

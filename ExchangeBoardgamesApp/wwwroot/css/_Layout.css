@@ -11,7 +11,7 @@
   border-radius: 0.5em;
   letter-spacing: -0.04em;
 }
-nav {
+nav.bar {
     display: flex;
     align-items: center;
     padding: 0 1.25em;
@@ -52,7 +52,7 @@ nav {
 input{
   border-width: 0.2em;
   border-style: solid;
-  height: 3em
+  height: 2.5em;
 }
 .site-logo {
   width: 3em;
@@ -80,6 +80,7 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 0 1.25em;
 }
 
 
@@ -95,8 +96,48 @@ input:focus {
 
 header {
   font-size: 2rem;
-  padding: 1em;
+  padding: 1em 0;
   font-weight: bold;
   color: var(--dark-blue);
   background-color: #F4F8FB;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #E3E6E8;
+  border-right: 2px solid #E3E6E8;
+  
+  width: 13em;
+  padding-bottom: 1em;
+  color: #747A7F;
+}
+
+.side  a {
+  padding: 1em 2.5em;
+}
+
+#home-link {
+  padding: 1em 0;
+  margin: 1em 0;
+}
+
+.Question {
+  background-image: url("/images/icons/earth.svg");
+  background-size: 2em;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+.side a:hover {
+  filter: brightness(50%);
+}
+.clicked-side-nav-link{
+  background-color:black;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:visited{
+  color: inherit;
 }
