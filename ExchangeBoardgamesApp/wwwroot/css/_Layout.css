@@ -11,6 +11,7 @@
   border-radius: 0.5em;
   letter-spacing: -0.04em;
 }
+
 nav.bar {
     display: flex;
     align-items: center;
@@ -83,7 +84,6 @@ body {
   padding: 0 1.25em;
 }
 
-
 input:focus {
   outline: 0.2em solid;
 }
@@ -107,37 +107,35 @@ header {
   flex-direction: column;
   border-bottom: 2px solid #E3E6E8;
   border-right: 2px solid #E3E6E8;
-  
   width: 13em;
   padding-bottom: 1em;
-  color: #747A7F;
 }
 
-.side  a {
+nav.side  a {
   padding: 1em 2.5em;
 }
 
 #home-link {
-  padding: 1em 0;
+  padding-left: 0;
   margin: 1em 0;
 }
 
-.Question {
+a.questions {
   background-image: url("/images/icons/earth.svg");
   background-size: 2em;
   background-repeat: no-repeat;
   background-position: 0 center;
 }
-.side a:hover {
-  filter: brightness(50%);
+.light-color-link{
+  color: #82878C;
 }
-.clicked-side-nav-link{
-  background-color:black;
+.light-color-link:hover{
+    filter: brightness(50%);
 }
 a{
   text-decoration: none;
-  color: inherit;
 }
-a:visited{
-  color: inherit;
+
+nav.side span {
+  color: #82878C;
 }
