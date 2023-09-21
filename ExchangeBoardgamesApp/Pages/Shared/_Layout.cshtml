@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>@ViewData["Title"] - ExchangeBoardgamesApp</title>
-    <link rel="stylesheet" href="~/css/_Layout.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/_Layout.css" asp-append-version="true" />
 </head>
 
 <body style="cursor: default;">
@@ -27,10 +27,6 @@
             Sign up
         </a>
     </nav>
-
-    <header>
-        Board & Card Games
-    </header>
     <nav class="side">
         <a class="light-color-link" id="home-link">Home</a>
         <span>PUBLIC</span>
@@ -39,12 +35,10 @@
         <a class="light-color-link">Users</a>
         <a class="light-color-link">Unanswered</a>
     </nav>
-    <div>
-        <main>
-            @RenderBody()
-        </main>
-    </div>
-
+    
+    <main>
+        @RenderBody()
+    </main>
 
 
 </body>

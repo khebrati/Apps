@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/Index.css",
+      "PackagePath": "staticwebassets/css/Index.css"
+    },
+    {
+      "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/Questions.css",
+      "PackagePath": "staticwebassets/css/Questions.css"
+    },
+    {
       "Id": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/_Layout.css",
       "PackagePath": "staticwebassets/css/_Layout.css"
     },

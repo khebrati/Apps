@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cuHrB6UZX6PureRoO38yI4BZ7NVIMkjQbOUP8JbRDdQ=",
+  "Hash": "RHiRIVeuTcW76IFOR3PsnGQQZxT1JEObkmJw1sIBc2s=",
   "Source": "ExchangeBoardgamesApp",
   "BasePath": "_content/ExchangeBoardgamesApp",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/_Layout.css"
+    },
+    {
+      "Identity": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/Index.css",
+      "SourceId": "ExchangeBoardgamesApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/",
+      "BasePath": "_content/ExchangeBoardgamesApp",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Index.css"
     },
     {
       "Identity": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/inspector:/localhost/inspector-stylesheet",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/localhost:5124/css/_Layout.css?v=T1_n5T3jpCX05w9VS6K03HqIR_jeUKV8aQeDgp2xI00"
+    },
+    {
+      "Identity": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/css/Questions.css",
+      "SourceId": "ExchangeBoardgamesApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/",
+      "BasePath": "_content/ExchangeBoardgamesApp",
+      "RelativePath": "css/Questions.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Questions.css"
     },
     {
       "Identity": "/home/erfan/IT/Source/MyPrograms/ExchangeBoardgames/Apps/ExchangeBoardgamesApp/wwwroot/images/icons/earth.svg",

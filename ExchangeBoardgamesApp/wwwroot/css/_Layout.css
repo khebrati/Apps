@@ -11,6 +11,12 @@
   border-radius: 0.5em;
   letter-spacing: -0.04em;
 }
+main{
+  position: fixed;
+  left: 14.25rem;
+  top: 5.6rem;
+  width: 100%;
+}
 
 nav.bar {
     display: flex;
@@ -25,10 +31,10 @@ nav.bar {
 }
 .nav-occupier{
   display: block;
-  height: 5.6em;
+  height: 5.6rem;
 }
 .nav-icon {
-  padding: 1.8em 1em;
+  padding: 1.8rem 1em;
   display: flex;
 }
 .nav-icon:hover{
@@ -81,7 +87,7 @@ a:hover {
 
 body {
   margin: 0;
-  padding: 0 1.25em;
+  padding: 0 1.25rem;
 }
 
 input:focus {
@@ -94,20 +100,13 @@ input:focus {
   color: white;
 }
 
-header {
-  font-size: 2rem;
-  padding: 1em 0;
-  font-weight: bold;
-  color: var(--dark-blue);
-  background-color: #F4F8FB;
-}
 
 .side {
   display: flex;
   flex-direction: column;
   border-bottom: 2px solid #E3E6E8;
   border-right: 2px solid #E3E6E8;
-  width: 13em;
+  width: 13rem;
   padding-bottom: 1em;
 }
 
