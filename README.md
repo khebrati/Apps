@@ -1,6 +1,6 @@
 ### ExchangeBoardgames
 
-This is a clone of the website boardgames.stackexchange.com in ASP.NET Core 7. It's still under development, but it will have 3 applications:
+This is a clone of [stack exchange for boardgames](boardgames.stackexchange.com) in ASP.NET Core 7. It's still under development, but it will have 3 applications:
 
 * A Razor Pages application for the frontend
 * A .NET Core library for business logic
