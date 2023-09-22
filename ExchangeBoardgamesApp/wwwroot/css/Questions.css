@@ -10,7 +10,7 @@ h1 {
 }
 .question-details {
   display: flex;
-  margin: 0 4em;
+  margin: 0 0 2em 4em;
   gap: 1em;
 }
 

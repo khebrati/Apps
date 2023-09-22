@@ -4,6 +4,7 @@
   --dark-blue: rgb(57,115,157);
   --text-black: #3b4045;
   --gray: #6a737c;
+  --gray-border:2px solid #E3E6E8;
   font-size: 12px;
 }
 *,
@@ -112,8 +113,8 @@ input:focus {
 .side {
   display: flex;
   flex-direction: column;
-  border-bottom: 2px solid #E3E6E8;
-  border-right: 2px solid #E3E6E8;
+  border-bottom: var(--gray-border);
+  border-right: var(--gray-border);
   width: 13rem;
   padding-bottom: 1em;
 }
