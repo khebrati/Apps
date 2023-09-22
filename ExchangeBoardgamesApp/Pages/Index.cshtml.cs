@@ -1,5 +1,4 @@
-//a default page model
-namespace ExchangeBoardgamesApp;
+namespace ExchangeBoardgamesApp.Pages;
 public class IndexModel : PageModel
 {
     

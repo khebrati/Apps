@@ -1,4 +1,4 @@
-namespace ExchangeBoardgamesApp;
+namespace ExchangeBoardgamesApp.Pages;
 public class QuestionsModel: PageModel
 {
     
