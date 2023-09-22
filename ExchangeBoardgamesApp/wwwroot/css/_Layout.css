@@ -2,6 +2,8 @@
   box-sizing: border-box;
   font-family: sans-serif;
   --dark-blue: rgb(57,115,157);
+  --text-black: #3b4045;
+  --gray: #6a737c;
   font-size: 12px;
 }
 *,
@@ -71,14 +73,20 @@ input{
   color: #2B5878;
 }
 .sign-up {
-  background-color: var(--dark-blue);
-  margin-left: 0.2em;
-  color: white;
+margin-left: 0.2em;
 }
 .button{
   padding: 0.7em 1em;
 }
 .button:hover{
+  filter:  brightness(90%);
+}
+.blue-button{
+  padding: 0.7em 1em;
+  background-color: var(--dark-blue);
+  color: white;
+}
+.blue-button:hover{
   filter:  brightness(90%);
 }
 a:hover {
@@ -126,7 +134,7 @@ a.questions {
   background-position: 0 center;
 }
 .light-color-link{
-  color: #82878C;
+  color: var(--gray);
 }
 .light-color-link:hover{
     filter: brightness(50%);
