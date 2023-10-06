@@ -1,20 +1,27 @@
 @page
 @model QuestionsModel
+
 <head>
     <link rel="stylesheet" href="~/css/Questions.css" asp-append-version="true" />
 </head>
 <header class="title">
     <div>
         <h1>
-        Can I use the Graft ability even if the creature giving the counter only has one?
-    </h1>
-    <a class="blue-button" id="ask-question">
-        Ask question
-    </a>
+            Can I use the Graft ability even if the creature giving the counter only has one?
+        </h1>
+        <a class="blue-button" id="ask-question">
+            Ask question
+        </a>
     </div>
     <div class="question-details">
-        <span><span class="question-title-detail">Asked</span>today</span><span><span class="question-title-detail">Modified</span>today</span><span><span class="question-title-detail">Viewed15</span>times</span>
+        <span><span class="question-title-detail">Asked</span>today</span><span><span
+                class="question-title-detail">Modified</span>today</span><span><span
+                class="question-title-detail">Viewed15</span>times</span>
     </div>
 </header>
-@* each of the answers little pieces of  *@
-<article>
+<article class="question">
+    <div class="buttons">
+        <span class="up vote circle"><img src="/images/icons/upvote-svgrepo-com.svg"></span><span class="score">0</span><span class="down vote circle"><img src="/images/icons/upvote-svgrepo-com.svg"></span>
+        </a>
+    </div>
+</article>
